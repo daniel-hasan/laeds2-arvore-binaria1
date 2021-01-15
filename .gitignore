@@ -3,3 +3,4 @@
 embeddings.txt
 *.npz
 .ipynb_checkpoints
+__pycache__
