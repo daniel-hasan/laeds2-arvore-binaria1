@@ -92,7 +92,7 @@ class Node:
         else:
             return val_right
 
-    def position_node(self, key, current_position=1:int) -> int:
+    def position_node(self, key, current_position:int=1) -> int:
         """
             Retorna a posição do nodo desejado na árvore
             current_position: representa a posição da árvore naquele momento
