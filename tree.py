@@ -12,8 +12,7 @@ class Node:
         """
         Imprime a arvore a partir do nodo atual
         """
-        #posORDER: 
-        
+        #inORDER: 
         if self.left:
             self.left.print_tree()
         print(self.key, end=" ")
